@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: CrudProduct
+  datasource:
+    url: jdbc:mysql://mysql:3306/crudproductdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: marakhib
+    password: Marakhib
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update

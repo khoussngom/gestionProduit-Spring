@@ -1,0 +1,15 @@
+product:
+  name:
+    notnull: "Le nom du produit est obligatoire"
+  description:
+    notnull: "La description du produit est obligatoire"
+  price:
+    notnull: "Le prix du produit est obligatoire"
+    positive: "Le prix du produit doit être positif"
+  category:
+    notnull: "La catégorie du produit est obligatoire"
+  notfound: "Produit non trouvé avec l'ID : %d"
+  categoryInconnue: "Catégorie inconnue : %s"
+  addSuccess: "Produit ajouté avec succès"
+  updateSuccess: "Produit mis à jour avec succès"
+  deleteSuccess: "Produit supprimé avec succès"
